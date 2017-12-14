@@ -32,6 +32,9 @@ grafana-cli plugins list-remote
 #安装Zabbix插件
 grafana-cli plugins install alexanderzobnin-zabbix-app
 
+#安装硬盘监控插件,用于danyi.json模板
+grafana-cli plugins install grafana-piechart-panel 
+
 systemctl restart grafana-server
 
 #curl localhost:3000
